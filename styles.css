@@ -2,7 +2,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: sans-serif, Arial, Helvetica, ;
+    font-family: sans-serif;
     text-transform: uppercase;
     font-weight: normal;
   }
@@ -64,10 +64,20 @@ body, html {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr;
+    margin-top: 2%;
 }
 
 .wrapper2x1Image {
     background-color: white;
+    max-height: 550px;
+    height: 550px;
+}
+.wrapper2x1Image img{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+
+
 }
 
 .wrapper2x1Text {
