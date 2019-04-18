@@ -1,7 +1,7 @@
 /*Styles for niklasfolke.github.io*/
 
 .hero-image {
-    background-image: url("/hero.jpg");
+    background-image: url("https://github.com/niklasfolke/niklasfolke.github.io/blob/master/hero.jpg?raw=true");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
